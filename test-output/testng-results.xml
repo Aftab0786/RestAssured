@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="17" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-22T10:52:22 IST" name="Default suite" finished-at="2022-11-22T10:52:28 IST" duration-ms="6239">
+    <groups>
+    </groups>
+    <test started-at="2022-11-22T10:52:22 IST" name="Default test" finished-at="2022-11-22T10:52:28 IST" duration-ms="6239">
+      <class name="com.bridgelabz.spotify.SpotifyApi">
+        <test-method is-config="true" signature="getToken()[pri:0, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:22 IST" name="getToken" finished-at="2022-11-22T10:52:22 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getToken -->
+        <test-method is-config="true" signature="getTracks()[pri:0, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:22 IST" name="getTracks" finished-at="2022-11-22T10:52:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTracks -->
+        <test-method signature="testGet_CurrentUsersProfile()[pri:0, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:22 IST" name="testGet_CurrentUsersProfile" finished-at="2022-11-22T10:52:24 IST" duration-ms="1893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_CurrentUsersProfile -->
+        <test-method signature="testGet_UsersProfile()[pri:1, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:24 IST" name="testGet_UsersProfile" finished-at="2022-11-22T10:52:24 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet_UsersProfile -->
+        <test-method signature="createPlaylist()[pri:2, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:24 IST" name="createPlaylist" finished-at="2022-11-22T10:52:24 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlaylist -->
+        <test-method signature="add_Items_to_Playlist()[pri:3, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:24 IST" name="add_Items_to_Playlist" finished-at="2022-11-22T10:52:24 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_Items_to_Playlist -->
+        <test-method signature="remove_Playlist_Items()[pri:4, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:24 IST" name="remove_Playlist_Items" finished-at="2022-11-22T10:52:25 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove_Playlist_Items -->
+        <test-method signature="get_Playlist()[pri:5, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:25 IST" name="get_Playlist" finished-at="2022-11-22T10:52:25 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Playlist -->
+        <test-method signature="get_Users_Playlist()[pri:6, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:25 IST" name="get_Users_Playlist" finished-at="2022-11-22T10:52:25 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Users_Playlist -->
+        <test-method signature="get_Playlist_Items()[pri:7, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:25 IST" name="get_Playlist_Items" finished-at="2022-11-22T10:52:25 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Playlist_Items -->
+        <test-method signature="get_Current_Users_Playlists()[pri:8, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:25 IST" name="get_Current_Users_Playlists" finished-at="2022-11-22T10:52:26 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Current_Users_Playlists -->
+        <test-method signature="change_Playlist_Details()[pri:9, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:26 IST" name="change_Playlist_Details" finished-at="2022-11-22T10:52:26 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- change_Playlist_Details -->
+        <test-method signature="search_For_Item()[pri:10, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:26 IST" name="search_For_Item" finished-at="2022-11-22T10:52:26 IST" duration-ms="409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_For_Item -->
+        <test-method signature="update_Playlist_Items()[pri:11, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:26 IST" name="update_Playlist_Items" finished-at="2022-11-22T10:52:26 IST" duration-ms="255" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <200> but was <403>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> but was <403>.
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:105)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:127)
+at io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+at com.bridgelabz.spotify.SpotifyApi.update_Playlist_Items(SpotifyApi.java:164)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_Playlist_Items -->
+        <test-method signature="get_Tracks_Audio_Analysis()[pri:12, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:26 IST" name="get_Tracks_Audio_Analysis" finished-at="2022-11-22T10:52:27 IST" duration-ms="861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Tracks_Audio_Analysis -->
+        <test-method signature="get_Tracks_Audio_Features()[pri:13, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:27 IST" name="get_Tracks_Audio_Features" finished-at="2022-11-22T10:52:27 IST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Tracks_Audio_Features -->
+        <test-method signature="get_Track_Audio_Features()[pri:14, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:27 IST" name="get_Track_Audio_Features" finished-at="2022-11-22T10:52:28 IST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Track_Audio_Features -->
+        <test-method signature="get_Several_Tracks()[pri:15, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:28 IST" name="get_Several_Tracks" finished-at="2022-11-22T10:52:28 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Several_Tracks -->
+        <test-method signature="get_Track()[pri:16, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:28 IST" name="get_Track" finished-at="2022-11-22T10:52:28 IST" duration-ms="158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Track -->
+        <test-method signature="get_Playlist_CoverImage()[pri:17, instance:com.bridgelabz.spotify.SpotifyApi@3514a4c0]" started-at="2022-11-22T10:52:28 IST" name="get_Playlist_CoverImage" finished-at="2022-11-22T10:52:28 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get_Playlist_CoverImage -->
+      </class> <!-- com.bridgelabz.spotify.SpotifyApi -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
